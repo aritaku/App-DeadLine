@@ -54,6 +54,7 @@ class ListTableViewController: UITableViewController {
 
         cell.dateLabel.text = wordArray[indexPath.row]["date"] as? String
         cell.nameLabel.text = wordArray[indexPath.row]["name"] as? String
+
         
         return cell
     }
